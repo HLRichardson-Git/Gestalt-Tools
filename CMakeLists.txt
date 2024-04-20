@@ -11,7 +11,8 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 include(FetchContent)
 FetchContent_Declare(
     Gestalt
-    URL https://github.com/HLRichardson-Git/Gestalt/archive/refs/tags/gestalt-0.3.1.zip
+    #URL https://github.com/HLRichardson-Git/Gestalt/archive/refs/tags/gestalt-0.3.1.zip
+    URL https://github.com/HLRichardson-Git/Gestalt/archive/refs/heads/9-implement-the-ecdsa-pkc-algorithms.zip
 )
 
 # Fetch Google Benchmark

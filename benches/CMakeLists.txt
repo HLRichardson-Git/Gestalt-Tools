@@ -5,6 +5,7 @@ set (This benches)
 set (Sources
     aesBenchs.cpp
     sha1Benches.cpp
+    ecdsaBenches.cpp
     # Add more benchmark files as needed
 )
 
